@@ -1,3 +1,6 @@
 {
-    "hello_world": "Hello world"
+    "header":{
+        "language_of_the_site": "language of the site",
+        "lang": "english"
+    }
 }
