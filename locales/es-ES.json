@@ -1,3 +1,6 @@
 {
-    "hello_world": "Hola Mundo"
+    "header":{
+        "language_of_the_site": "idioma del sitio",
+        "lang": "español"
+    }
 }
