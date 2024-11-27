@@ -1,6 +1,15 @@
 {
-    "header":{
+    "button": {
+        "start": "c'est parti !",
+        "already_account" : "j'ai déjà un compte"
+    },
+    "header": {
         "language_of_the_site": "langue du site",
         "lang": "français"
+    },
+    "index": {
+        "text_1": "La méthode gratuite,",
+        "text_2": "ludique et efficace pour",
+        "text_3": "apprendre un langage"
     }
 }

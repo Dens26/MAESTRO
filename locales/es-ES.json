@@ -1,6 +1,15 @@
 {
+    "button": {
+        "start": "¡Vamos!",
+        "already_account" : "Ya tengo una cuenta"
+    },
     "header":{
         "language_of_the_site": "idioma del sitio",
         "lang": "español"
+    },
+    "index": {
+        "text_1": "El método gratuito,",
+        "text_2": "divertido y eficaz para",
+        "text_3": "leaprender un idioma"
     }
 }

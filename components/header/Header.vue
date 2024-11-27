@@ -10,7 +10,7 @@
                 </nuxt-link>
             </div>
             <div>
-                <Button v-if="!isButtonVisible" :name="name.toUpperCase()">c'est parti!</Button>
+                <Button v-if="!isButtonVisible" :buttonClass="'primary'" :buttonName="name.toUpperCase()">c'est parti!</Button>
             </div>
             <div class="dropdown-container" :class="{'d-none': !isButtonVisible}">
                 <div class="dropdown">

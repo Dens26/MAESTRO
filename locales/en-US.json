@@ -1,6 +1,15 @@
 {
+    "button": {
+        "start": "Let's go !",
+        "already_account" : "I already have an account"
+    },
     "header":{
         "language_of_the_site": "language of the site",
         "lang": "english"
+    },
+    "index": {
+        "text_1": "The free, fun and",
+        "text_2": "effective method for",
+        "text_3": "learning a language"
     }
 }

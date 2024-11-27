@@ -20,7 +20,7 @@ export default defineNuxtConfig({
     }
   },
   css: ['~/assets/main.css'],
-  modules: ['@nuxtjs/i18n', '@pinia/nuxt'],
+  modules: ['@nuxtjs/i18n', '@pinia/nuxt', '@nuxt/fonts'],
   i18n: {
     vueI18n: '~/plugins/i18n.config.ts'
   },
