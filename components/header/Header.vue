@@ -1,18 +1,21 @@
 <!-- TEMPLATE -->
 <template>
     <nav class="menu-container" :class="{ 'menu-container-bg': scrollPosition > 1 }">
-        <div class="header-container mx-5"
-            :class="{ 'justify-content-between': !isButtonVisible, 'justify-content-center': windowWidth<1080 }">
+        <div class="header-container mx-5 align-items-center"
+            :class="{ 'justify-content-between': !isButtonVisible, 'justify-content-center': windowWidth < 1080 }">
             <div>
-                <nuxt-link class="text-decoration-none text-success d-flex gap-2" to="/">
-                    <img src="~/assets/logo/logo.png" width="48" alt="">
-                    <span class="company-name fs-2">Maestro</span>
+                <nuxt-link class="text-decoration-none text-success align-items-center d-flex gap-2" to="/">
+                    <img src="/assets/logos/logo.png" width="32" height="32" alt="">
+                    <span :class="{ 'disable': !isButtonVisible }" class="company-name fs-2">Maestro</span>
                 </nuxt-link>
             </div>
-            <div>
-                <Button v-if="!isButtonVisible" :buttonClass="'primary'" :buttonName="name.toUpperCase()">c'est parti!</Button>
-            </div>
-            <div class="dropdown-container" :class="{'d-none': !isButtonVisible}">
+            <nuxt-link v-if="route.name === 'index'" class="text-decoration-none"
+                :to="selectedLanguage.name === '' ? { name: 'register-selectLanguage' } : { name: 'register' }">
+                <Button :class="'w-100'" v-if="!isButtonVisible" :buttonClass="'primary'"
+                    :buttonName="name.toUpperCase()">c'est parti!
+                </Button>
+            </nuxt-link>
+            <div class="dropdown-container" :class="{ 'd-none': !isButtonVisible }">
                 <div class="dropdown">
                     <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <span class="fs-6">{{ $t('header.language_of_the_site').toUpperCase() }} : {{
@@ -34,46 +37,29 @@
 <!-- SCRIPT -->
 <script setup lang="ts">
 const languages = [
-    {
-        local: 'fr',
-        lang: 'Français',
-        flag: 'FR'
-    },
-    {
-        local: 'en',
-        lang: 'English',
-        flag: 'US'
-    },
-    {
-        local: 'es',
-        lang: 'español',
-        flag: 'ES'
-    },
+    { local: 'fr', lang: 'Français', flag: 'FR' },
+    { local: 'en', lang: 'English', flag: 'US' },
+    { local: 'es', lang: 'español', flag: 'ES' },
 ]
+const globalStore = useGlobalStore()
+const profilStore = useProfilStore()
+const windowWidth = computed(() => globalStore.windowWidth)
+const selectedLanguage = computed(() => profilStore.selectedLanguage)
 
 const scrollPosition = ref(0)
-const windowWidth = ref(0)
 const handleScroll = () => {
     scrollPosition.value = window.scrollY
 }
-const handleWidth = () => {
-    windowWidth.value = window.innerWidth
-}
-
+const route = useRoute()
 onMounted(() => {
     window.addEventListener('scroll', handleScroll)
-    window.addEventListener('resize', handleWidth)
 })
 
 onBeforeUnmount(() => {
     window.removeEventListener('scroll', handleScroll)
-    window.removeEventListener('resize', handleWidth)
 })
 
 const visibilityStore = useVisibilityStore()
-const globalStore = useGlobalStore()
-const navBarHeight = computed(() => globalStore.navBarHeight)
-
 const isButtonVisible = computed(() => visibilityStore.isButtonVisible)
 const name = ref('c\'est parti !')
 </script>
@@ -81,6 +67,10 @@ const name = ref('c\'est parti !')
 
 <!-- STYLE -->
 <style scoped>
+.disable {
+    display: none;
+}
+
 .dropdown-container {
     display: none;
 }
@@ -88,7 +78,7 @@ const name = ref('c\'est parti !')
 .menu-container {
     position: sticky;
     top: 0;
-    height: v-bind(navBarHeight);
+    height: 75px;
     background-color: white;
     align-content: center;
 }
@@ -100,6 +90,12 @@ const name = ref('c\'est parti !')
 
 .header-container {
     display: flex;
+}
+
+@media screen and (min-width: 576px) {
+    .company-name {
+        display: flex;
+    }
 }
 
 @media screen and (min-width: 1080px) {

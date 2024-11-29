@@ -1,15 +1,52 @@
 {
     "button": {
         "start": "Let's go !",
-        "already_account" : "I already have an account"
+        "already_account": "I already have an account"
     },
-    "header":{
+    "header": {
         "language_of_the_site": "language of the site",
         "lang": "english"
     },
-    "index": {
-        "text_1": "The free, fun and",
-        "text_2": "effective method for",
-        "text_3": "learning a language"
+    "headband": {
+        "language_description": "The best way to learn "
+    },
+    "presentation": {
+        "intro": {
+            "text": {
+                "first": "The free, fun and",
+                "second": "effective method for",
+                "third": "learning a language !"
+            }
+        },
+        "chapter_1": {
+            "title": "free. fun. effective",
+            "text": "Learning with Maestro is fun, and what's more it really works ! With our short and interactive lessons, earn points, progress through the levels and develop your developer skills"
+        },
+        "chapter_2": {
+            "title": "a scientific method",
+            "text": "We use research-based teaching methods combined with fun content to create lessons that effectively teach written and oral comprehension and expression!",
+            "img": "https://lottie.host/4a7287ee-f740-4e0d-aa1b-4daa9da548c4/8Vn29IEjwe.lottie"
+        },
+        "chapter_3": {
+            "title": "motivation always at the top",
+            "text": "We help you get into the habit of practicing languages thanks to our fun features and fun challenges.",
+            "img": "https://lottie.host/4f1ed09f-5080-4a89-b600-c5388928c1d7/u0ueFDdrfz.lottie"
+        },
+        "chapter_4": {
+            "title": "personalized learning",
+            "text": "Designed to adapt to your level and help you learn at your own pace, our lessons combine the best of artificial intelligence and linguistics.",
+            "img": "https://lottie.host/857e2d86-043e-4485-b26d-f67f68b26d4f/fyLeYiUVlJ.lottie"
+        },
+        "chapter_5": {
+            "title": "maestro certification",
+            "text": "Our practical, quick and affordable test integrates the latest assessment and artificial intelligence technologies. You can now assess your developer level precisely, whenever you want, wherever you want.",
+            "img": "https://lottie.host/4f1ed09f-5080-4a89-b600-c5388928c1d7/u0ueFDdrfz.lottie",
+            "button": "certify your knowledge"
+        }
+    },
+    "register": {
+        "select_language" : {
+            "title" : "Select a language"
+        }
     }
 }

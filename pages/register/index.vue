@@ -1,3 +1,3 @@
 <template>
-    <Index></Index>
+    <h1>Register</h1>
 </template>
