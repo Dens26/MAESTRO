@@ -1,15 +1,53 @@
 {
     "button": {
         "start": "c'est parti !",
-        "already_account" : "j'ai déjà un compte"
+        "already_account": "j'ai déjà un compte"
     },
     "header": {
         "language_of_the_site": "langue du site",
         "lang": "français"
     },
-    "index": {
-        "text_1": "La méthode gratuite,",
-        "text_2": "ludique et efficace pour",
-        "text_3": "apprendre un langage"
+    "headband": {
+        "language_description": "La meilleure façon d'apprendre le "
+    },
+    "presentation": {
+        "intro": {
+            "text": {
+                "first": "La méthode gratuite,",
+                "second": "fun et efficace pour",
+                "third": "apprendre un langage !"
+            }
+        },
+        "chapter_1": {
+            "title": "gratuit. fun. éfficace",
+            "text": "Apprendre avec Mastro, c'est fun, et en plus ça marche vraiment ! Avec nos leçons courtes et interactives, gagne des points, progresse dans les niveaux et développe tes compétences de développeur",
+            "img": "https://lottie.host/0a53edd0-a51c-4d1c-8293-8ac8aceb2f87/7hAA58pw0e.lottie"
+        },
+        "chapter_2": {
+            "title": "une méthode scientifique",
+            "text": "On utilise des méthodes d'enseignement fondées sur la recherche associées à du contenu ludique pour créer des cours qui enseignent efficacement la compréhension et l'expression écrites et orales !",
+            "img": "https://lottie.host/4a7287ee-f740-4e0d-aa1b-4daa9da548c4/8Vn29IEjwe.lottie"
+        },
+        "chapter_3": {
+            "title": "une motivation toujours au top",
+            "text": "On t'aide à prendre l'habitude de pratiquer les langues grâce à nos fonctionnalités ludiques et à nos défis amusants.",
+            "img": "https://lottie.host/4f1ed09f-5080-4a89-b600-c5388928c1d7/u0ueFDdrfz.lottie"
+        },
+        "chapter_4": {
+            "title": "un apprentissage personnalisé",
+            "text": "Conçues pour s'adapter à ton niveau et t'aider à apprendre à ton rythme, nos leçons combinent le meilleur de l'intelligence artificielle et de la linguistique.",
+            "img": "https://lottie.host/857e2d86-043e-4485-b26d-f67f68b26d4f/fyLeYiUVlJ.lottie"
+        },
+        "chapter_5": {
+            "title": "certification maestro",
+            "text": "Nos test pratique, rapide et abordable intègre les dernières technologies d'évaluation et d'intelligence artificielle. Tu peux désormais évaluer ton niveau de développeur de façon précise, quand tu veux, où tu veux.",
+            "img": "https://lottie.host/4f1ed09f-5080-4a89-b600-c5388928c1d7/u0ueFDdrfz.lottie",
+            "button" : "certifie tes connaissances"
+        }
+    },
+    "register": {
+        "select_language" : {
+            "title" : "Choisis un langage"
+        }
     }
 }

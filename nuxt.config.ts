@@ -24,4 +24,9 @@ export default defineNuxtConfig({
   i18n: {
     vueI18n: '~/plugins/i18n.config.ts'
   },
+
+  devServer: {
+    host: '0.0.0.0',
+    port: 3000
+  }
 })

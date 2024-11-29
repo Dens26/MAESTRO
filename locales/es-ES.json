@@ -1,15 +1,52 @@
 {
     "button": {
         "start": "¡Vamos!",
-        "already_account" : "Ya tengo una cuenta"
+        "already_account": "Ya tengo una cuenta"
     },
-    "header":{
+    "header": {
         "language_of_the_site": "idioma del sitio",
         "lang": "español"
     },
-    "index": {
-        "text_1": "El método gratuito,",
-        "text_2": "divertido y eficaz para",
-        "text_3": "leaprender un idioma"
+    "headband": {
+        "language_description": "La mejor manera de aprender "
+    },
+    "presentation": {
+        "intro": {
+            "text": {
+                "first": "El método gratuito",
+                "second": "divertido y eficaz para",
+                "third": "leaprender un idioma !"
+            }
+        },
+        "chapter_1": {
+            "title": "gratis. divertido. efectivo",
+            "text": "Aprender con Maestro es divertido y aún más realmente funciona ¡! Con nuestras lecciones breves e interactivas, gana puntos, progresa a través de los niveles y desarrolla tus habilidades de desarrollador"
+        },
+        "chapter_2": {
+            "title": "un método científico",
+            "text": "Utilizamos métodos de enseñanza basados ​​en la investigación combinados con contenido divertido para crear lecciones que enseñen de manera efectiva la comprensión y expresión escrita y oral.",
+            "img": "https://lottie.host/4a7287ee-f740-4e0d-aa1b-4daa9da548c4/8Vn29IEjwe.lottie"
+        },
+        "chapter_3": {
+            "title": "la motivación siempre está en la cima",
+            "text": "Te ayudamos a adquirir el hábito de practicar idiomas gracias a nuestras funciones divertidas y desafíos divertidos.",
+            "img": "https://lottie.host/4f1ed09f-5080-4a89-b600-c5388928c1d7/u0ueFDdrfz.lottie"
+        },
+        "chapter_4": {
+            "title": "aprendizaje personalizado",
+            "text": "Diseñadas para adaptarse a tu nivel y ayudarte a aprender a tu propio ritmo, nuestras lecciones combinan lo mejor de la inteligencia artificial y la lingüística.",
+            "img": "https://lottie.host/857e2d86-043e-4485-b26d-f67f68b26d4f/fyLeYiUVlJ.lottie"
+        },
+        "chapter_5": {
+            "title": "certificación de maestro",
+            "text": "Nuestra prueba práctica, rápida y asequible integra las últimas tecnologías de evaluación e inteligencia artificial. Ahora puedes evaluar tu nivel de desarrollador con precisión, cuando quieras y donde quieras.",
+            "img": "https://lottie.host/4f1ed09f-5080-4a89-b600-c5388928c1d7/u0ueFDdrfz.lottie",
+            "button": "certifica tus conocimientos"
+        }
+    },
+    "register": {
+        "select_language": {
+            "title": "Seleccione un idioma"
+        }
     }
 }
