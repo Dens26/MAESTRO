@@ -24,22 +24,8 @@ const windowWidth = computed(() => globalStore.windowWidth)
 const profil = useProfilStore()
 const selectedLanguage = (language: any) => {
     profil.setSelectedLanguage(language)
-    console.log(profil.selectedLanguage)
 }
-const languages = [
-    { name: "HTML", logo: "/assets/logos/html.png" },
-    { name: "CSS", logo: "/assets/logos/css.png" },
-    { name: "JavaScript", logo: "/assets/logos/javascript.png" },
-    { name: "PHP", logo: "/assets/logos/php.png" },
-    { name: "SQL", logo: "/assets/logos/sql.png" },
-    { name: "Vue.js", logo: "/assets/logos/vue.png" },
-    { name: "React", logo: "/assets/logos/react.png" },
-    { name: "Angular", logo: "/assets/logos/angular.png" },
-    { name: "Laravel", logo: "/assets/logos/laravel.png" },
-    { name: "Symfony", logo: "/assets/logos/symfony.png" },
-    { name: "Python", logo: "/assets/logos/python.png" },
-    { name: "Java", logo: "/assets/logos/java.png" },
-]
+const languages = globalStore.languages
 const currentIndex = ref(0)
 const visibleCount = computed(() => {
     if (windowWidth.value >= 768){

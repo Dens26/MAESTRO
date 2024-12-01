@@ -10,9 +10,9 @@
                 </nuxt-link>
             </div>
             <nuxt-link v-if="route.name === 'index'" class="text-decoration-none"
-                :to="selectedLanguage.name === '' ? { name: 'register-selectLanguage' } : { name: 'register' }">
+                :to="selectedLanguage.name === '' ? { name: 'register' } : { name: 'welcome' }">
                 <Button :class="'w-100'" v-if="!isButtonVisible" :buttonClass="'primary'"
-                    :buttonName="name.toUpperCase()">c'est parti!
+                    :buttonName="$t('button.start').toUpperCase()">
                 </Button>
             </nuxt-link>
             <div class="dropdown-container" :class="{ 'd-none': !isButtonVisible }">
@@ -61,7 +61,6 @@ onBeforeUnmount(() => {
 
 const visibilityStore = useVisibilityStore()
 const isButtonVisible = computed(() => visibilityStore.isButtonVisible)
-const name = ref('c\'est parti !')
 </script>
 
 
@@ -77,6 +76,7 @@ const name = ref('c\'est parti !')
 
 .menu-container {
     position: sticky;
+    z-index: 1000;
     top: 0;
     height: 75px;
     background-color: white;

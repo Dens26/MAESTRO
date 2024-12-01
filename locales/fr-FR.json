@@ -47,7 +47,26 @@
     },
     "register": {
         "select_language" : {
-            "title" : "Choisis un langage"
+            "title" : "Choisis un langage",
+            "language_description": {
+                "HTML": "L'épine dorsale du web, le HTML structure le contenu de chaque site internet.",
+                "CSS": "L'art du style, CSS rend le Web beau et réactif.",
+                "JavaScript": "Moteur de l'interactivité, JavaScript donne vie aux sites Web.",
+                "PHP": "Pionnier côté serveur, PHP optimise les expériences Web dynamiques.",
+                "SQL": "Le langage des bases de données, SQL vous aide à stocker et récupérer des données efficacement.",
+                "Vue js": "Le framework JavaScript progressif, Vue.js simplifie le développement Web moderne.",
+                "React": "La bibliothèque d'interface utilisateur de Facebook, React facilite la création d'interfaces dynamiques.",
+                "Angular": "Le framework puissant de Google, Angular est une solution complète pour les applications Web.",
+                "Laravel": "Le framework PHP pour les artisans, Laravel redéfinit la simplicité du développement web.",
+                "Symfony": "Le framework PHP robuste, Symfony est conçu pour les applications à grande échelle.",
+                "Python": "Python, polyvalent et polyvalent, est parfait pour le Web, l'IA et au-delà.",
+                "Java": "Le favori des entreprises, Java alimente des applications évolutives et sécurisées."
+            }
         }
+    },
+    "welcome" :{
+        "hello" : "Salut, moi c'est Meowestro !",
+        "button_name" : "continuer"
     }
+
 }
