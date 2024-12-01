@@ -45,8 +45,26 @@
         }
     },
     "register": {
-        "select_language" : {
-            "title" : "Select a language"
+        "select_language": {
+            "title": "Select a language",
+            "language_description": {
+                "HTML": "The backbone of the web, HTML structures the content of every website.",
+                "CSS": "The art of styling, CSS makes the web beautiful and responsive.",
+                "JavaScript": "The powerhouse of interactivity, JavaScript brings websites to life.",
+                "PHP": "The server-side pioneer, PHP powers dynamic web experiences.",
+                "SQL": "The language of databases, SQL helps you store and retrieve data efficiently.",
+                "Vue js": "The progressive JavaScript framework, Vue.js simplifies modern web developement.",
+                "React": "The UI library by Facebook, React makes building dynamic interfaces a breeze.",
+                "Angular": "Google’s powerful framework, Angular is a complete solution for web apps.",
+                "Laravel": "The PHP framework for artisans, Laravel redefines web development simplicity.",
+                "Symfony": "The robust PHP framework, Symfony is built for large-scale applications.",
+                "Python": "The versatile all-rounder, Python is perfect for web, AI, and beyond.",
+                "Java": "The enterprise favorite, Java powers scalable and secure applications."
+            }
         }
+    },
+    "welcome" :{
+        "hello" : "Hello, I'm Meowestro !",
+        "button_name" : "continue"
     }
 }

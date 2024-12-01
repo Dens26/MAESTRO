@@ -11,7 +11,7 @@
             <p class="text-center m-auto">{{ $t('presentation.intro.text.second') }}</p>
             <p class="text-center m-auto">{{ $t('presentation.intro.text.third') }}</p>
             <div ref="buttonRef">
-                <nuxt-link class="text-decoration-none" :to="selectedLanguage.name === ''? {name: 'register-selectLanguage'} : {name:'register'}">
+                <nuxt-link class="text-decoration-none" :to="selectedLanguage.name === ''? {name: 'register'} : {name:'welcome'}">
                     <Button class="d-flex mt-5 m-auto w-100" :buttonClass="'primary'"
                         :buttonName="$t('button.start').toLocaleUpperCase()"></Button>
                 </nuxt-link>
@@ -21,7 +21,7 @@
         </div>
     </div>
 
-    <Headband v-if="windowWidth > 360" class="headband"></Headband>
+    <IndexHeadband v-if="windowWidth > 360" class="headband"></IndexHeadband>
 
     <IndexChapter :gifFirst="false" :title="$t('presentation.chapter_1.title')"
         :text="$t('presentation.chapter_1.text')" :img="$t('presentation.chapter_1.img')" />
@@ -29,9 +29,9 @@
         :img="$t('presentation.chapter_2.img')" />
     <IndexChapter :gifFirst="false" :title="$t('presentation.chapter_3.title')"
         :text="$t('presentation.chapter_3.text')" :img="$t('presentation.chapter_3.img')" />
-    <IndexChapter :gifFirst="false" :title="$t('presentation.chapter_4.title')"
+    <IndexChapter :gifFirst="true" :title="$t('presentation.chapter_4.title')"
         :text="$t('presentation.chapter_4.text')" :img="$t('presentation.chapter_4.img')" />
-    <IndexChapter :gifFirst="true" :title="$t('presentation.chapter_5.title')" :text="$t('presentation.chapter_5.text')"
+    <IndexChapter :gifFirst="false" :title="$t('presentation.chapter_5.title')" :text="$t('presentation.chapter_5.text')"
         :button-class="'secondary'" :button-name="$t('presentation.chapter_5.button')"
         :img="$t('presentation.chapter_5.img')" />
 </template>
@@ -63,7 +63,7 @@ const handleVisibilityChange = (entries: IntersectionObserverEntry[]) => {
 onMounted(() => {
     observer = new IntersectionObserver(handleVisibilityChange, {
         root: null,
-        rootMargin: '-95px',
+        rootMargin: '-70px',
         threshold: 0.1,
     });
 
