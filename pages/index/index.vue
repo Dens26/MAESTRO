@@ -1,3 +1,10 @@
+<!-- TEMPLATE -->
 <template>
-    <h1>lld</h1>
+
 </template>
+
+
+<!-- SCRIPT -->
+<script setup lang="ts">
+
+</script>
