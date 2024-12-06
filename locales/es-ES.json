@@ -1,3 +1,6 @@
 {
-    "hello_world": "Hello world"
+    "alt" : {
+        "company-logo" : "Logo Maestro"
+    },
+    "hello-world": "Bonjour le monde"
 }

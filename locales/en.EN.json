@@ -1,3 +1,14 @@
 {
-    "hello_world": "Bonjour le monde"
+    "alt" : {
+        "company-logo" : "Logo Maestro"
+    },
+    "header": {
+        "language-of-the-site" : "language of the site : english"
+    },
+    "pages":{
+        "index": {
+            "button-start": "let's go !"
+        }
+    },
+    "hello-world": "hello world"
 }
