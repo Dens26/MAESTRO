@@ -1,6 +1,225 @@
 {
-    "alt" : {
-        "company-logo" : "Logo Maestro"
+    "alt": {
+        "company-logo": "Logo de Maestro",
+        "previous": "Anterior",
+        "close": "Cerrar"
     },
-    "hello-world": "Bonjour le monde"
+    "header": {
+        "language-of-the-site": "idioma del sitio: Español"
+    },
+    "footer": {
+        "button": "continuar"
+    },
+    "pages": {
+        "index": {
+            "button-start": "¡Vamos allá!",
+            "button-account": "Ya tengo una cuenta",
+            "description": {
+                "first": "El método gratuito",
+                "second": "divertido y efectivo para",
+                "third": "Aprender"
+            },
+            "chapter_1": {
+                "title": "gratuito. divertido. efectivo.",
+                "text": "¡Aprender con Maestro es divertido y realmente funciona! Con nuestras lecciones cortas e interactivas, gana puntos, sube de nivel y desarrolla tus habilidades como desarrollador.",
+                "img": "https://lottie.host/0a53edd0-a51c-4d1c-8293-8ac8aceb2f87/7hAA58pw0e.lottie"
+            },
+            "chapter_2": {
+                "title": "un método científico",
+                "text": "Usamos métodos de enseñanza basados en la investigación, combinados con contenido divertido, para crear lecciones que enseñan de manera efectiva la comprensión y expresión escrita y oral.",
+                "img": "https://lottie.host/4a7287ee-f740-4e0d-aa1b-4daa9da548c4/8Vn29IEjwe.lottie"
+            },
+            "chapter_3": {
+                "title": "motivación siempre alta",
+                "text": "Te ayudamos a adquirir el hábito de practicar idiomas gracias a nuestras funciones divertidas y desafíos emocionantes.",
+                "img": "https://lottie.host/4f1ed09f-5080-4a89-b600-c5388928c1d7/u0ueFDdrfz.lottie"
+            },
+            "chapter_4": {
+                "title": "aprendizaje personalizado",
+                "text": "Diseñadas para adaptarse a tu nivel y ayudarte a aprender a tu propio ritmo, nuestras lecciones combinan lo mejor de la inteligencia artificial y la lingüística.",
+                "img": "https://lottie.host/857e2d86-043e-4485-b26d-f67f68b26d4f/fyLeYiUVlJ.lottie"
+            },
+            "chapter_5": {
+                "title": "certificación maestro",
+                "text": "Nuestra prueba práctica, rápida y asequible integra las últimas tecnologías de evaluación e inteligencia artificial. Ahora puedes evaluar tu nivel de desarrollador de manera precisa, cuando quieras, donde quieras.",
+                "img": "https://lottie.host/4f1ed09f-5080-4a89-b600-c5388928c1d7/u0ueFDdrfz.lottie",
+                "button": "certifica tus conocimientos"
+            },
+            "headband": {
+                "language_description": "La mejor manera de aprender "
+            }
+        },
+        "register": {
+            "title": "¿Qué idioma quieres aprender?",
+            "language_description": {
+                "HTML": "La columna vertebral de la web, HTML estructura el contenido de cada sitio web.",
+                "CSS": "El arte del estilo, CSS hace que la web sea hermosa y receptiva.",
+                "JavaScript": "El motor de la interactividad, JavaScript da vida a los sitios web.",
+                "PHP": "Un pionero del lado del servidor, PHP potencia experiencias web dinámicas.",
+                "SQL": "El lenguaje de las bases de datos, SQL te ayuda a almacenar y recuperar datos eficientemente.",
+                "Vue js": "El framework JavaScript progresivo, Vue.js simplifica el desarrollo web moderno.",
+                "React": "La biblioteca de interfaz de usuario de Facebook, React facilita la creación de interfaces dinámicas.",
+                "Angular": "El potente framework de Google, Angular es una solución completa para aplicaciones web.",
+                "Laravel": "El framework PHP para artesanos, Laravel redefine la simplicidad del desarrollo web.",
+                "Symfony": "El robusto framework PHP, Symfony está diseñado para aplicaciones a gran escala.",
+                "Python": "Python, versátil y flexible, es perfecto para la web, la IA y más allá.",
+                "Java": "El favorito de las empresas, Java impulsa aplicaciones escalables y seguras."
+            }
+        },
+        "welcome": {
+            "step_0": "¡Hola, soy Meowaestro!",
+            "step_1": "¿Empezamos?",
+            "step_2": "¿Cómo te enteraste de Meowaestro?",
+            "step_3": "¿Por qué quieres aprender ",
+            "step_4": "¿Ya sabes algo sobre ",
+            "step_5": "¡Mira lo que puedes hacer!",
+            "step_6": "¿Cuál es tu objetivo diario?",
+            "step_7": "¡Vamos, descubramos por dónde debes empezar!",
+            "heard": {
+                "twitter": {
+                    "title": "X(Twitter)",
+                    "img": "twitter.png"
+                },
+                "facebook": {
+                    "title": "Facebook/Instagram",
+                    "img": "facebook.png"
+                },
+                "tiktok": {
+                    "title": "Tik Tok",
+                    "img": "tiktok.png"
+                },
+                "family_friends": {
+                    "title": "Familia/Amigos",
+                    "img": "family.png"
+                },
+                "tv": {
+                    "title": "TV",
+                    "img": "tv.png"
+                },
+                "news": {
+                    "title": "Noticias/artículos/blogs",
+                    "img": "news.png"
+                },
+                "youtube": {
+                    "title": "YouTube",
+                    "img": "youtube.png"
+                },
+                "google_search": {
+                    "title": "Búsqueda en Google",
+                    "img": "google.png"
+                },
+                "other": {
+                    "title": "Otro",
+                    "img": "other.png"
+                }
+            },
+            "why": {
+                "study": {
+                    "title": "Ayudarme con mis estudios",
+                    "bubbleText": "¡Estoy seguro de que lo harás genial!",
+                    "img": "study.png"
+                },
+                "hobby": {
+                    "title": "Divertirme",
+                    "bubbleText": "¡A mí también me encanta divertirme!",
+                    "img": "hobby.png"
+                },
+                "job": {
+                    "title": "Impulsar mi carrera",
+                    "bubbleText": "¡Se abrirán nuevas puertas para ti!",
+                    "img": "job.png"
+                },
+                "train": {
+                    "title": "Perfeccionarme",
+                    "bubbleText": "¡Te convertiremos en un campeón!",
+                    "img": "train.png"
+                },
+                "other": {
+                    "title": "Otro",
+                    "bubbleText": "¡Todos tenemos una buena razón para aprender!",
+                    "img": "other.png"
+                }
+            },
+            "knowledge": {
+                "noob": {
+                    "title": "No sé nada",
+                    "bubbleText": "No te preocupes. ¡Empezaremos con calma!",
+                    "img": "noob.png"
+                },
+                "beginning": {
+                    "title": "Soy principiante",
+                    "bubbleText": "¡De acuerdo, empezaremos con lo básico!",
+                    "img": "beginning.png"
+                },
+                "intermediate": {
+                    "title": "Tengo algunos conocimientos",
+                    "bubbleText": "¡Bien, veamos qué ya sabes!",
+                    "img": "intermediate.png"
+                },
+                "good": {
+                    "title": "Quiero mejorar",
+                    "bubbleText": "¡Perfecto, vamos allá!",
+                    "img": "good.png"
+                },
+                "expert": {
+                    "title": "Soy un experto",
+                    "bubbleText": "¡Impresionante, empecemos de inmediato!",
+                    "img": "expert.png"
+                }
+            },
+            "description": {
+                "learn": {
+                    "title": "¡Aprende lo básico!",
+                    "img": "learn.png",
+                    "description": "Ejercicios sin estrés para aprender los fundamentos del lenguaje"
+                },
+                "practice": {
+                    "title": "¡Practica!",
+                    "img": "practice.png",
+                    "description": "Pon en práctica tus nuevos conocimientos con desafíos para verificar lo que has aprendido"
+                },
+                "reminder": {
+                    "title": "¡Adquiere buenos hábitos!",
+                    "img": "reminder.png",
+                    "description": "Aprovecha recordatorios inteligentes, desafíos divertidos y mucho más"
+                }
+            },
+            "goal": {
+                "calm": {
+                    "title": "Tranquilo (5 por/jia)",
+                    "bubbleText": "¡Vámonos tranquilos!",
+                    "img": "calm.svg"
+                },
+                "normal": {
+                    "title": "Normal (10 por/jia)",
+                    "bubbleText": "¡Vamos al modo aventura!",
+                    "img": "normal.svg"
+                },
+                "intensive": {
+                    "title": "Intensivo (15 por/jia)",
+                    "bubbleText": "¡Espera! ¡Puede que tiemble un poco!",
+                    "img": "intensive.svg"
+                },
+                "extreme": {
+                    "title": "Extremo (20 por/jia)",
+                    "bubbleText": "¡Guau! ¡No hay tiempo que perder!",
+                    "img": "extreme.svg"
+                }
+            },
+            "start": {
+                "begin": {
+                    "title": "Comienza con lo básico",
+                    "description": "Toma la lección más fácil de todas",
+                    "bubbleText": "¡Genial, vamos!",
+                    "img": "comenzar.png"
+                },
+                "find": {
+                    "title": "Determinar mi nivel",
+                    "description": "¡Permítanos encontrar el mejor punto de partida para usted!",
+                    "bubbleText": "¡Genial, vayamos directo al grano!",
+                    "img": "buscar.png"
+                }
+            }
+        }
+    }
 }

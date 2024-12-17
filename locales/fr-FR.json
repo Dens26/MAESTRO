@@ -1,14 +1,323 @@
 {
-    "alt" : {
-        "company-logo" : "Logo Maestro"
+    "alt": {
+        "company-logo": "Logo Maestro",
+        "previous": "Précédent",
+        "close": "Fermer"
     },
     "header": {
-        "language-of-the-site" : "langue du site : français"
+        "language-of-the-site": "Langue du site : Français"
     },
-    "pages":{
+    "footer": {
+        "button": "Continuer"
+    },
+    "pages": {
         "index": {
-            "button-start": "c'est parti !"
+            "button-start": "C'est parti !",
+            "button-account": "J'ai déjà un compte",
+            "description": {
+                "first": "La méthode gratuite",
+                "second": "fun et efficace pour",
+                "third": "apprendre"
+            },
+            "chapter_1": {
+                "title": "Gratuit. Fun. Efficace.",
+                "text": "Apprendre avec Maestro, c'est fun, et en plus ça marche vraiment ! Avec nos leçons courtes et interactives, gagne des points, progresse dans les niveaux et développe tes compétences de développeur.",
+                "img": "https://lottie.host/0a53edd0-a51c-4d1c-8293-8ac8aceb2f87/7hAA58pw0e.lottie"
+            },
+            "chapter_2": {
+                "title": "Une méthode scientifique",
+                "text": "Nous utilisons des méthodes d'enseignement fondées sur la recherche, associées à du contenu ludique, pour créer des cours qui enseignent efficacement la compréhension et l'expression écrites et orales !",
+                "img": "https://lottie.host/4a7287ee-f740-4e0d-aa1b-4daa9da548c4/8Vn29IEjwe.lottie"
+            },
+            "chapter_3": {
+                "title": "Une motivation toujours au top",
+                "text": "Nous t'aidons à prendre l'habitude de pratiquer les langues grâce à nos fonctionnalités ludiques et à nos défis amusants.",
+                "img": "https://lottie.host/4f1ed09f-5080-4a89-b600-c5388928c1d7/u0ueFDdrfz.lottie"
+            },
+            "chapter_4": {
+                "title": "Un apprentissage personnalisé",
+                "text": "Conçues pour s'adapter à ton niveau et t'aider à apprendre à ton rythme, nos leçons combinent le meilleur de l'intelligence artificielle et de la linguistique.",
+                "img": "https://lottie.host/857e2d86-043e-4485-b26d-f67f68b26d4f/fyLeYiUVlJ.lottie"
+            },
+            "chapter_5": {
+                "title": "Certification Maestro",
+                "text": "Notre test pratique, rapide et abordable intègre les dernières technologies d'évaluation et d'intelligence artificielle. Tu peux désormais évaluer ton niveau de développeur de façon précise, quand tu veux, où tu veux.",
+                "img": "https://lottie.host/4f1ed09f-5080-4a89-b600-c5388928c1d7/u0ueFDdrfz.lottie",
+                "button": "Certifie tes connaissances"
+            },
+            "headband": {
+                "language_description": "La meilleure façon d'apprendre le "
+            }
+        },
+        "register": {
+            "title": "Quel langage veux-tu apprendre ?",
+            "language_description": {
+                "HTML": "L'épine dorsale du web, le HTML structure le contenu de chaque site internet.",
+                "CSS": "L'art du style, CSS rend le web beau et réactif.",
+                "JavaScript": "Moteur de l'interactivité, JavaScript donne vie aux sites web.",
+                "PHP": "Pionnier côté serveur, PHP optimise les expériences web dynamiques.",
+                "SQL": "Le langage des bases de données, SQL vous aide à stocker et récupérer des données efficacement.",
+                "Vue js": "Le framework JavaScript progressif, Vue.js simplifie le développement web moderne.",
+                "React": "La bibliothèque d'interface utilisateur de Facebook, React facilite la création d'interfaces dynamiques.",
+                "Angular": "Le puissant framework de Google, Angular est une solution complète pour les applications web.",
+                "Laravel": "Le framework PHP pour les artisans, Laravel redéfinit la simplicité du développement web.",
+                "Symfony": "Le framework PHP robuste, Symfony est conçu pour les applications à grande échelle.",
+                "Python": "Python, polyvalent et flexible, est parfait pour le web, l'IA et bien plus.",
+                "Java": "Le favori des entreprises, Java alimente des applications évolutives et sécurisées."
+            }
+        },
+        "welcome": {
+            "step_0": "Salut, moi c'est Meowaestro !",
+            "step_1": "On y va ?",
+            "step_2": "Comment as-tu entendu parler de Meowaestro ?",
+            "step_3": "Pourquoi veux-tu apprendre ",
+            "step_4": "Tu connais déjà un peu ",
+            "step_5": "Regarde tout ce que tu pourras faire !",
+            "step_6": "Quel est ton objectif quotidien ?",
+            "step_7": "Allez, on va trouver par où tu dois commencer !",
+            "heard": {
+                "twitter": {
+                    "title": "X (Twitter)",
+                    "img": "twitter.png"
+                },
+                "facebook": {
+                    "title": "Facebook/Instagram",
+                    "img": "facebook.png"
+                },
+                "tiktok": {
+                    "title": "Tik Tok",
+                    "img": "tiktok.png"
+                },
+                "family_friends": {
+                    "title": "Famille/Amis",
+                    "img": "family.png"
+                },
+                "tv": {
+                    "title": "TV",
+                    "img": "tv.png"
+                },
+                "news": {
+                    "title": "Actualités/articles/blogs",
+                    "img": "news.png"
+                },
+                "youtube": {
+                    "title": "YouTube",
+                    "img": "youtube.png"
+                },
+                "google_search": {
+                    "title": "Recherche Google",
+                    "img": "google.png"
+                },
+                "other": {
+                    "title": "Autre",
+                    "img": "other.png"
+                }
+            },
+            "why": {
+                "study": {
+                    "title": "M'aider pour mes études",
+                    "bubbleText": "Je suis sûr que tu vas assurer !",
+                    "img": "study.png"
+                },
+                "hobby": {
+                    "title": "Me divertir",
+                    "bubbleText": "Moi aussi, j'adore m'amuser !",
+                    "img": "hobby.png"
+                },
+                "job": {
+                    "title": "Booster ma carrière",
+                    "bubbleText": "De nouvelles portes s'ouvriront à toi !",
+                    "img": "job.png"
+                },
+                "train": {
+                    "title": "Me perfectionner",
+                    "bubbleText": "On va faire de toi un champion !",
+                    "img": "train.png"
+                },
+                "other": {
+                    "title": "Autre",
+                    "bubbleText": "On a tous une bonne raison d'apprendre !",
+                    "img": "other.png"
+                }
+            },
+            "knowledge": {
+                "noob": {
+                    "title": "Je n'y connais rien du tout",
+                    "bubbleText": "Ne t'en fais pas. Nous allons apprendre en douceur !",
+                    "img": "noob.png"
+                },
+                "beginning": {
+                    "title": "Je suis débutant",
+                    "bubbleText": "D'accord, on va commencer par les bases !",
+                    "img": "beginning.png"
+                },
+                "intermediate": {
+                    "title": "J'ai quelques connaissances",
+                    "bubbleText": "Ok, voyons ce que tu connais déjà !",
+                    "img": "intermediate.png"
+                },
+                "good": {
+                    "title": "Je veux me perfectionner",
+                    "bubbleText": "Parfait, allons-y !",
+                    "img": "good.png"
+                },
+                "expert": {
+                    "title": "Je suis un expert",
+                    "bubbleText": "Waouh, commençons sans attendre !",
+                    "img": "expert.png"
+                }
+            },
+            "description": {
+                "learn": {
+                    "title": "Apprends les bases !",
+                    "img": "learn.png",
+                    "description": "Des exercices sans stress pour apprendre les bases du langage"
+                },
+                "practice": {
+                    "title": "Entraine toi !",
+                    "img": "practice.png",
+                    "description": "Mets en pratique tes nouvelles connaissance lors de challenges afin de vérifier tes acquis"
+                },
+                "reminder": {
+                    "title": "Prends de bonnes habitudes !",
+                    "img": "reminder.png",
+                    "description": "Profite de rappels intelligents, des défis amusants et bien plus"
+                }
+            },
+            "goal": {
+                "calm": {
+                    "title": "Tranquille (5 min/jour)",
+                    "bubbleText": "Laissons nous aller tranquillement !",
+                    "img": "calm.svg"
+                },
+                "normal": {
+                    "title": "Normal (10 min/jour)",
+                    "bubbleText": "Allons y en mode aventurier !",
+                    "img": "normal.svg"
+                },
+                "intensive": {
+                    "title": "Intensif (15 min/jour)",
+                    "bubbleText": "Accroche toi! ça risque de secouer un peu !",
+                    "img": "intensive.svg"
+                },
+                "extreme": {
+                    "title": "Extrême (20 min/jour)",
+                    "bubbleText": "Waouh! Pas de temps à perdre !",
+                    "img": "extreme.svg"
+                }
+            },
+            "start": {
+                "begin": {
+                    "title": "Commencer par les bases",
+                    "description": "Fais la leçon la plus facile du cous",
+                    "bubbleText": "Super, allons y !",
+                    "img": "begin.png"
+                },
+                "find": {
+                    "title": "Déterminer mon niveau ",
+                    "description": "Laisse nous trouver le meilleur point de départ pour toi !",
+                    "bubbleText": "Parfait, allons directement à l'essentiel  !",
+                    "img": "find.png"
+                }
+            }
+        },
+        "lesson": {
+            "chose" : "Choisi la bonne réponse",
+            "chapter_1": {
+                "lesson_1": {
+                    "first_question": {
+                        "subject" : "chose",
+                        "question": "Quelle balise utilisera-t-on de préférence pour le titre principal d'une page html ?",
+                        "answer_list": [
+                            "<h1>",
+                            "<head>",
+                            "<heading>",
+                            "<h6>"
+                        ]
+                    },
+                    "second_question": {
+                        "question": "",
+                        "answer_list": [
+                            "",
+                            "",
+                            "",
+                            ""
+                        ]
+                    },
+                    "third_question": {
+                        "question": "",
+                        "answer_list": {
+                            "first": "",
+                            "second": "",
+                            "third": "",
+                            "fourth": ""
+                        }
+                    },
+                    "fourth_question": {
+                        "question": "",
+                        "answer_list": {
+                            "first": "",
+                            "second": "",
+                            "third": "",
+                            "fourth": ""
+                        }
+                    },
+                    "fith_question": {
+                        "question": "",
+                        "answer_list": {
+                            "first": "",
+                            "second": "",
+                            "third": "",
+                            "fourth": ""
+                        }
+                    },
+                    "sixth_question": {
+                        "question": "",
+                        "answer_list": {
+                            "first": "",
+                            "second": "",
+                            "third": "",
+                            "fourth": ""
+                        }
+                    },
+                    "seventh_question": {
+                        "question": "",
+                        "answer_list": {
+                            "first": "",
+                            "second": "",
+                            "third": "",
+                            "fourth": ""
+                        }
+                    },
+                    "eighth_question": {
+                        "question": "",
+                        "answer_list": {
+                            "first": "",
+                            "second": "",
+                            "third": "",
+                            "fourth": ""
+                        }
+                    },
+                    "ninth_question": {
+                        "question": "",
+                        "answer_list": {
+                            "first": "",
+                            "second": "",
+                            "third": "",
+                            "fourth": ""
+                        }
+                    },
+                    "tenth_question": {
+                        "question": "",
+                        "answer_list": {
+                            "first": "",
+                            "second": "",
+                            "third": "",
+                            "fourth": ""
+                        }
+                    }
+                }
+            }
         }
-    },
-    "hello-world": "bonjour le monde"
+    }
 }

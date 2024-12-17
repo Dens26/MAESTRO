@@ -6,17 +6,17 @@
 </template>
 
 <script setup lang="ts">
-const { setLocale } = useI18n()
+    const { setLocale } = useI18n()
 
-const props = defineProps<{
-    local: String,
-    lang: String,
-    flag: String
-}>()
+    const props = defineProps < {
+        local: String,
+        lang: String,
+        flag: String
+    } > ()
 
-const url = ref('')
+    const url = ref('')
 
-onMounted(() => {
-    url.value = 'https://flagsapi.com/' + props.flag + '/shiny/32.png'
-})
+    onMounted(() => {
+        url.value = 'https://flagsapi.com/' + props.flag + '/shiny/32.png'
+    })
 </script>

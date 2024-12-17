@@ -14,6 +14,12 @@ const handleWindowWidth = () => {
   globalStore.setWindowWidth(window.innerWidth)
 }
 
+useHead({
+  title:"Maestro",
+  meta:[
+    { name: 'description', content: 'Site de formation langage de programmation'}
+  ]
+})
 
 onMounted(() => {
   window.addEventListener('resize', handleWindowWidth)

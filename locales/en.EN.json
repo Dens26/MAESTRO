@@ -1,14 +1,225 @@
 {
-    "alt" : {
-        "company-logo" : "Logo Maestro"
+    "alt": {
+        "company-logo": "Maestro Logo",
+        "previous": "Previous",
+        "close": "Close"
     },
     "header": {
-        "language-of-the-site" : "language of the site : english"
+        "language-of-the-site": "site language: English"
     },
-    "pages":{
+    "footer": {
+        "button": "continue"
+    },
+    "pages": {
         "index": {
-            "button-start": "let's go !"
+            "button-start": "Let's go!",
+            "button-account": "I already have an account",
+            "description": {
+                "first": "The free method",
+                "second": "fun and effective to",
+                "third": "Learn"
+            },
+            "chapter_1": {
+                "title": "free. fun. effective.",
+                "text": "Learning with Maestro is fun, and it really works! With our short and interactive lessons, earn points, level up, and develop your developer skills.",
+                "img": "https://lottie.host/0a53edd0-a51c-4d1c-8293-8ac8aceb2f87/7hAA58pw0e.lottie"
+            },
+            "chapter_2": {
+                "title": "a scientific method",
+                "text": "We use research-based teaching methods combined with fun content to create lessons that effectively teach written and spoken comprehension and expression!",
+                "img": "https://lottie.host/4a7287ee-f740-4e0d-aa1b-4daa9da548c4/8Vn29IEjwe.lottie"
+            },
+            "chapter_3": {
+                "title": "always motivated",
+                "text": "We help you build the habit of practicing languages through our fun features and exciting challenges.",
+                "img": "https://lottie.host/4f1ed09f-5080-4a89-b600-c5388928c1d7/u0ueFDdrfz.lottie"
+            },
+            "chapter_4": {
+                "title": "personalized learning",
+                "text": "Designed to adapt to your level and help you learn at your own pace, our lessons combine the best of artificial intelligence and linguistics.",
+                "img": "https://lottie.host/857e2d86-043e-4485-b26d-f67f68b26d4f/fyLeYiUVlJ.lottie"
+            },
+            "chapter_5": {
+                "title": "maestro certification",
+                "text": "Our practical, quick, and affordable test integrates the latest assessment technologies and artificial intelligence. Now you can evaluate your developer level precisely, anytime, anywhere.",
+                "img": "https://lottie.host/4f1ed09f-5080-4a89-b600-c5388928c1d7/u0ueFDdrfz.lottie",
+                "button": "certify your knowledge"
+            },
+            "headband": {
+                "language_description": "The best way to learn "
+            }
+        },
+        "register": {
+            "title": "Which language do you want to learn?",
+            "language_description": {
+                "HTML": "The backbone of the web, HTML structures the content of every website.",
+                "CSS": "The art of style, CSS makes the web beautiful and responsive.",
+                "JavaScript": "The engine of interactivity, JavaScript brings websites to life.",
+                "PHP": "A pioneer in server-side, PHP powers dynamic web experiences.",
+                "SQL": "The language of databases, SQL helps you store and retrieve data efficiently.",
+                "Vue js": "The progressive JavaScript framework, Vue.js simplifies modern web development.",
+                "React": "Facebook's UI library, React makes building dynamic interfaces easier.",
+                "Angular": "Google's powerful framework, Angular is a complete solution for web apps.",
+                "Laravel": "The PHP framework for artisans, Laravel redefines web development simplicity.",
+                "Symfony": "The robust PHP framework, Symfony is built for large-scale applications.",
+                "Python": "Python, versatile and flexible, is perfect for web, AI, and beyond.",
+                "Java": "The enterprise favorite, Java powers scalable and secure applications."
+            }
+        },
+        "welcome": {
+            "step_0": "Hi, I'm Meowaestro!",
+            "step_1": "Shall we start?",
+            "step_2": "How did you hear about Meowaestro?",
+            "step_3": "Why do you want to learn ",
+            "step_4": "Do you already know a bit about ",
+            "step_5": "Look at what you can do!",
+            "step_6": "What is your daily goal ?",
+            "step_7": "Come on, let's find out where you should start!",
+            "heard": {
+                "twitter": {
+                    "title": "X(Twitter)",
+                    "img": "twitter.png"
+                },
+                "facebook": {
+                    "title": "Facebook/Instagram",
+                    "img": "facebook.png"
+                },
+                "tiktok": {
+                    "title": "Tik Tok",
+                    "img": "tiktok.png"
+                },
+                "family_friends": {
+                    "title": "Family/Friends",
+                    "img": "family.png"
+                },
+                "tv": {
+                    "title": "TV",
+                    "img": "tv.png"
+                },
+                "news": {
+                    "title": "News/articles/blogs",
+                    "img": "news.png"
+                },
+                "youtube": {
+                    "title": "YouTube",
+                    "img": "youtube.png"
+                },
+                "google_search": {
+                    "title": "Google Search",
+                    "img": "google.png"
+                },
+                "other": {
+                    "title": "Other",
+                    "img": "other.png"
+                }
+            },
+            "why": {
+                "study": {
+                    "title": "Help with my studies",
+                    "bubbleText": "I'm sure you'll do great!",
+                    "img": "study.png"
+                },
+                "hobby": {
+                    "title": "For fun",
+                    "bubbleText": "I love having fun too!",
+                    "img": "hobby.png"
+                },
+                "job": {
+                    "title": "Boost my career",
+                    "bubbleText": "New doors will open for you!",
+                    "img": "job.png"
+                },
+                "train": {
+                    "title": "Improve myself",
+                    "bubbleText": "We're going to make you a champion!",
+                    "img": "train.png"
+                },
+                "other": {
+                    "title": "Other",
+                    "bubbleText": "We all have a good reason to learn!",
+                    "img": "other.png"
+                }
+            },
+            "knowledge": {
+                "noob": {
+                    "title": "I know nothing at all",
+                    "bubbleText": "Don't worry. We'll take it easy!",
+                    "img": "noob.png"
+                },
+                "beginning": {
+                    "title": "I'm a beginner",
+                    "bubbleText": "Alright, we'll start with the basics!",
+                    "img": "beginning.png"
+                },
+                "intermediate": {
+                    "title": "I have some knowledge",
+                    "bubbleText": "Okay, let's see what you already know!",
+                    "img": "intermediate.png"
+                },
+                "good": {
+                    "title": "I want to improve",
+                    "bubbleText": "Perfect, let's go!",
+                    "img": "good.png"
+                },
+                "expert": {
+                    "title": "I'm an expert",
+                    "bubbleText": "Wow, let's get started right away!",
+                    "img": "expert.png"
+                }
+            },
+            "description": {
+                "learn": {
+                    "title": "Learn the basics!",
+                    "img": "learn.png",
+                    "description": "Stress-free exercises to learn the fundamentals of the language"
+                },
+                "practice": {
+                    "title": "Practice!",
+                    "img": "practice.png",
+                    "description": "Put your new knowledge into practice with challenges to verify your progress"
+                },
+                "reminder": {
+                    "title": "Build good habits!",
+                    "img": "reminder.png",
+                    "description": "Enjoy smart reminders, fun challenges, and much more"
+                }
+            },
+            "goal": {
+                "calm": {
+                    "title": "Tranquil (5 min/day)",
+                    "bubbleText": "Let's go quietly !",
+                    "img": "calm.svg"
+                },
+                "normal": {
+                    "title": "Normal (10 min/day)",
+                    "bubbleText": "Let's go in adventure mode !",
+                    "img": "normal.svg"
+                },
+                "intensive": {
+                    "title": "Intensive (15 min/day)",
+                    "bubbleText": "Hang on! It might shake a little !",
+                    "img": "intensive.svg"
+                },
+                "extreme": {
+                    "title": "Extreme (20 min/day)",
+                    "bubbleText": "Wow! No time to waste !",
+                    "img": "extreme.svg"
+                }
+            },
+            "start": {
+                "begin": {
+                    "title": "Start with the basics",
+                    "description": "Take the easiest lesson ever",
+                    "bubbleText": "Great, let's go!",
+                    "img": "begin.png"
+                },
+                "find": {
+                    "title": "Determine my level",
+                    "description": "Let us find the best starting point for you!",
+                    "bubbleText": "Great, let's get straight to the point!",
+                    "img": "find.png"
+                }
+            }
         }
-    },
-    "hello-world": "hello world"
+    }
 }
